@@ -8,7 +8,7 @@ import PlatformInfo from "./components/PlatformInfo";
 export default function Main() {
   return (
     <View style={styles.container}>
-      <MinMax />
+      <MinMax x={10} y={5} />
       <PlatformInfo />
     </View>
   );
